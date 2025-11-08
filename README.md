@@ -1,2 +1,2 @@
 # UKMUbaya
-Second project for Native Mobile Programmin subject.
+Second project for Native Mobile Programming subject.
