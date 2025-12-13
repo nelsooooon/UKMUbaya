@@ -36,14 +36,6 @@ class EventDetailFragment : DialogFragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         dialog?.window?.setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT)
-        
-        /*
-        binding.txtTitle.text = event?.name
-        binding.txtDesc.text = event?.description
-        binding.progressCrew.max = event?.crewNeed ?: 0
-        binding.progressCrew.progress = event?.total ?: 0
-        binding.imgEvent.setImageResource(event?.pictureID ?: R.drawable.programming)
-        */
 
         event?.apply {
             with(binding) {
